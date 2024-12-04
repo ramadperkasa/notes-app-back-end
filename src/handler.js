@@ -6,7 +6,7 @@ const addNoteHandler = (request, h) => {
 
   const id = nanoid(16);
 
-  const createdAt = newDate().toISOString();
+  const createdAt = new Date().toISOString();
 
   const updatedAt = createdAt;
 
